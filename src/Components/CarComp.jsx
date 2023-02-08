@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CarComp = (props) => {
+const CarComp = (props) => {                                         
   return (
     <div>
         <h1>CarName:{props.Car1}</h1>

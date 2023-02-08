@@ -11,6 +11,9 @@ import { Todu } from './Todu';
 import {Counter} from './Counter';
 import Props from './Props';
 import CarComp from './Components/CarComp';
+import AA from './AA';
+import BB from './BB';
+
 
 function App() {
   // const lName="Arbaz"
@@ -25,10 +28,12 @@ function App() {
   // const tName="Abrar";
   // const SecondTname="Desai"
   // const Adress14="Kolhapur Dist:Belgaum"
-  const CarName="Maruti Suzuki"
-  const CarModel="2022"
-  const CarColor="Red"
-  const CarType="Sports"
+
+  
+  // const CarName="Maruti Suzuki"
+  // const CarModel="2022"
+  // const CarColor="Red"
+  // const CarType="Sports"
 
   return (
     <div className="App">
@@ -40,16 +45,18 @@ function App() {
       {/* <SchoolForm/> */}
       {/* <Todu/> */}
       {/* <Counter/> */}
+      {/* <AA/> */}
+      <BB/>
       {/* <Props Name1={tName} Name2={SecondLname} Adress={Adress11}/>
       <Props Name1={fName}Name2={SecondFname} Adress={Adress12}/>
       <Props Name1={sName}Name2={SecondSname}Adress={Adress13}/>
       <Props Name1={lName}Name2={SecondTname}Adress={Adress14}/> */}
-      
-      <CarComp 
+
+      {/* <CarComp 
       Car1={CarName} 
       Car2={CarModel}
       Car3={CarColor}
-      Car4={CarType}/>
+      Car4={CarType}/> */}
 
 
       
