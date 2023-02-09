@@ -13,6 +13,7 @@ import Props from './Props';
 import CarComp from './Components/CarComp';
 import AA from './AA';
 import BB from './BB';
+import On from './On';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
       {/* <Counter/> */}
       {/* <AA/> */}
       <BB/>
+      {/* <On/> */}
       {/* <Props Name1={tName} Name2={SecondLname} Adress={Adress11}/>
       <Props Name1={fName}Name2={SecondFname} Adress={Adress12}/>
       <Props Name1={sName}Name2={SecondSname}Adress={Adress13}/>
